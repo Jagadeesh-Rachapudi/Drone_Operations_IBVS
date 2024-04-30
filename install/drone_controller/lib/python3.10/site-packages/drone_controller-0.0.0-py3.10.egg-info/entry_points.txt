@@ -1,0 +1,5 @@
+[console_scripts]
+image_pub = drone_controller.image_pub:main
+image_sub = drone_controller.image_sub:main
+img_sub = drone_controller.img_sub:main
+
