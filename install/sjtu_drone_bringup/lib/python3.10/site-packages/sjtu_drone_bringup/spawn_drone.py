@@ -23,7 +23,7 @@ def main(args=None):
     req.initial_pose = Pose()
     req.initial_pose.position.x = 0.0  # adjust as needed
     req.initial_pose.position.y = 0.0  # adjust as needed
-    req.initial_pose.position.z = 1.5  # adjust as needed
+    req.initial_pose.position.z = 2.5  # adjust as needed
 
     while not cli.wait_for_service(timeout_sec=1.0):
         node.get_logger().info('service not available, waiting again...')

@@ -302,17 +302,17 @@
   </gazebo>
   <!-- camera color -->
   <gazebo reference="camera">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Black</material>
   </gazebo>
 
   <!-- left_wheel color -->
   <gazebo reference="left_wheel">
-    <material>Gazebo/Black</material>
+    <material>Gazebo/Red</material>
   </gazebo>
 
   <!-- right_wheel color -->
   <gazebo reference="right_wheel">
-    <material>Gazebo/Black</material>
+    <material>Gazebo/Green</material>
   </gazebo>
   
 </robot>

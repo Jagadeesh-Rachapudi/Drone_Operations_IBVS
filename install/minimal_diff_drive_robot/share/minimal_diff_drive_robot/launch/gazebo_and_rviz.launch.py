@@ -55,7 +55,7 @@ def generate_launch_description():
     spawn_robot = Node(
         package='gazebo_ros',
         executable='spawn_entity.py',
-        arguments=['-entity', 'robot1', '-x', '.6', '-y', '0.0', '-z', '0.0',
+        arguments=['-entity', 'robot1', '-x', '0.0', '-y', '0.0', '-z', '0.0',
                    '-topic', 'robot1/robot_description']
     )
     

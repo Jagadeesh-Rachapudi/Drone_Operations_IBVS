@@ -12,6 +12,10 @@ drone_controller/__init__.py
 drone_controller/image_pub.py
 drone_controller/image_sub.py
 drone_controller/img_sub.py
+drone_controller/img_sub2.py
+drone_controller/img_sub3.py
+drone_controller/pose_sub.py
+drone_controller/rough.py
 resource/drone_controller
 test/test_copyright.py
 test/test_flake8.py
